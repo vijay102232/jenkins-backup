@@ -1,0 +1,67 @@
+Started by user [8mha:////4OukWL0sttnnYEkMCqM5x0V9ib11AIo86ZsTRXtcs8N4AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9ssysxEoAiitzQ8AAAAA=[0mvijay
+Running as SYSTEM
+Building remotely on [8mha:////4GymVlegDzP4vi7FT3o4nPaMxqCdG8jR1R/g/DYlttuwAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/cT01LwSIwCMcymcxQAAAA==[0magent2 in workspace /opt/jenkins/workspace/java-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /opt/jenkins/workspace/java-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/vijay102232/java-project.git # timeout=10
+Fetching upstream changes from https://github.com/vijay102232/java-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/vijay102232/java-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8347ffc4611fcf521953cc9c0aa0c9213f376976 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8347ffc4611fcf521953cc9c0aa0c9213f376976 # timeout=10
+Commit message: " Added java files"
+ > git rev-list --no-walk 8347ffc4611fcf521953cc9c0aa0c9213f376976 # timeout=10
+Unpacking https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.5.4/apache-maven-3.5.4-bin.zip to /opt/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven on agent2
+[java-project] $ /opt/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven/bin/mvn install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.efsavage:hello-world-war >--------------------
+[INFO] Building Hello World Web Application Repository 1.0.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4AQKfnNebfpsV7JXJIHdLE2HNFayFqj0XBugQecdgb/0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hello-world-war ---
+[8mha:////4KKGlGiV3ARAjLtWFNjjz0QItcuI8xegTcFxHdkJ6ky5AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /opt/jenkins/workspace/java-project/src/main/resources
+[INFO] 
+[8mha:////4AQKfnNebfpsV7JXJIHdLE2HNFayFqj0XBugQecdgb/0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ hello-world-war ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4AQKfnNebfpsV7JXJIHdLE2HNFayFqj0XBugQecdgb/0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hello-world-war ---
+[8mha:////4KKGlGiV3ARAjLtWFNjjz0QItcuI8xegTcFxHdkJ6ky5AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /opt/jenkins/workspace/java-project/src/test/resources
+[INFO] 
+[8mha:////4AQKfnNebfpsV7JXJIHdLE2HNFayFqj0XBugQecdgb/0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ hello-world-war ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4AQKfnNebfpsV7JXJIHdLE2HNFayFqj0XBugQecdgb/0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hello-world-war ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4AQKfnNebfpsV7JXJIHdLE2HNFayFqj0XBugQecdgb/0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-war-plugin:2.1.1:war (default-war) @ hello-world-war ---
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/home/ubuntu/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hello-world-war] in [/opt/jenkins/workspace/java-project/target/hello-world-war-1.0.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/opt/jenkins/workspace/java-project/src/main/webapp]
+[INFO] Webapp assembled in [77 msecs]
+[INFO] Building war: /opt/jenkins/workspace/java-project/target/hello-world-war-1.0.0.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4AQKfnNebfpsV7JXJIHdLE2HNFayFqj0XBugQecdgb/0AAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ hello-world-war ---
+[INFO] Installing /opt/jenkins/workspace/java-project/target/hello-world-war-1.0.0.war to /home/ubuntu/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war
+[INFO] Installing /opt/jenkins/workspace/java-project/pom.xml to /home/ubuntu/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.072 s
+[INFO] Finished at: 2022-02-27T11:09:31Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

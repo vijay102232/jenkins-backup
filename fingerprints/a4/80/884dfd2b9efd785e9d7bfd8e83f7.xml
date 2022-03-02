@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-03-01 12:57:28.672 UTC</timestamp>
+  <md5sum>a480884dfd2b9efd785e9d7bfd8e83f7</md5sum>
+  <fileName>com.squareup.okhttp3:logging-interceptor-3.2.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>calendar/dev.outlook.com:java-calendar-demo</string>
+      <ranges>2</ranges>
+    </entry>
+    <entry>
+      <string>calendar</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
